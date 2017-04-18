@@ -21,5 +21,5 @@ RUN cd /opt \
     && ln -s /opt/jq/jq /usr/local/bin
 
 # Get symfony.phar
-RUN wget -O /var/www/symfony.phar http://symfony.com/installer
+RUN wget -O /var/www/html/symfony.phar http://symfony.com/installer
 
