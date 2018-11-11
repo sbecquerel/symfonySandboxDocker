@@ -3,7 +3,7 @@ FROM php:7.1-apache
 # Install essentials
 RUN apt-get update \
     && apt-get upgrade -y \
-    && apt-get install -y zsh emacs-nox git tree wget less --no-install-recommends \
+    && apt-get install -y zsh emacs-nox git tree wget less zip --no-install-recommends \
     && rm -r /var/lib/apt/lists/* 
 
 # Install oh-my-zsh
